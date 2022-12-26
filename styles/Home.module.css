@@ -97,7 +97,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +125,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
@@ -275,4 +275,34 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.main2 {
+  height: 94vh;
+  weight: 100vw;
+  font-family: Garamond, serif;
+  background-color: #9791ce78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bd {
+  font-family: Garamond, serif;
+  background-color: #9791ce78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+.main3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  min-height: 100vh;
+  flex-direction: row-reverse;
 }

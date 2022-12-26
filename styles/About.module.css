@@ -1,0 +1,9 @@
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  min-height: 100vh;
+  flex-direction: row-reverse;
+}
