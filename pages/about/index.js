@@ -3,7 +3,7 @@ import bg from '../../public/bg.jpg'
 import styles from '../../styles/About.module.css'
 import Typewriter from 'typewriter-effect'
 import Navbar from "../../components/Navbar";
-import Link from "next/link";
+// import Link from "next/link";
 
 
 

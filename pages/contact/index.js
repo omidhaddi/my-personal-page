@@ -1,12 +1,14 @@
+import Card from "../../components/Card";
 import Navbar from "../../components/Navbar";
+import db from "../../database"
 
-export default function Contact() {
+export default function Contact({ allMessages }) {
 
     return (
         <>
             <Navbar />
             <h1 className="m-3">Contact me</h1>
-
+            <h5 className="text-danger m-3 ms-5">Please fill all field </h5>
             <form action='/api' method="POST">
                 <div class="row ">
                     <div class="col-4 ms-5">
@@ -27,11 +29,26 @@ export default function Contact() {
                 </div>
                 <br />
                 <div>
-                <input className="btn btn-primary col-4 mx-auto ms-5" type="submit" value="Send"  />
+                    <input className="btn btn-primary col-4 mx-auto ms-5" type="submit" value="Send" />
                 </div>
             </form>
+            <br />
+            <br />
+            <br />
+            <div className="row ms-3">
+                {allMessages.map(message => <Card key={message.id} message={message} />)}
+            </div>
         </>
     )
+}
 
+export async function getServerSideProps(req, res) {
 
+    const messages = await db.Message.findAll()
+    const allMessages = JSON.parse(JSON.stringify(messages))
+
+    return {
+
+        props: { allMessages }
+    }
 }

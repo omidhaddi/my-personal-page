@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 // import Image from 'next/image'
 // import bg from '../public/bg.jpg'
-import img from '../public/IMG.jpg'
+import img from '../public/bg3.jpg'
 
 export default function Home() {
 
@@ -26,7 +26,7 @@ export default function Home() {
         }}
       >
         <br />
-        <div className="text-left" style={{ marginRight: '1050px' }} >
+        <div className="text-left" style={{ marginLeft: '500px' }} >
           <h3 className="text-black font-weight-normal fs-2">I&apos;m</h3>
           <h1
             className="text-uppercase text-primary mb-2 fs-1"
