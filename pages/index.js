@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Typewriter from 'typewriter-effect'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
-import myPic from '../public/images/myPic.jpg'
+// import myPic from '../public/images/myPic.jpg'
 
 export default function Home() {
 
@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.main2}
         style={{
-          backgroundImage: `url(${myPic.src})`,
+          backgroundImage: `url(https://res.cloudinary.com/dgxasrrac/image/upload/v1672174727/personal-pics/myPic_bwrmyn.jpg)`,
           width: '100vw',
           height: '94vh',
           backgroundRepeat: 'no-repeat',

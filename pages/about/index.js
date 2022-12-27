@@ -32,7 +32,8 @@ export default function About() {
                     </div>
                     <div className={styles.main}>
                         <div >
-                            <Image src={pic} alt="" height={500} width={500} style={{ borderRadius: '250px', objectFit: 'cover' }} />
+                            <Image src='https://res.cloudinary.com/dgxasrrac/image/upload/v1672174728/personal-pics/pic_iukdmp.jpg'
+                                alt="" height={500} width={500} style={{ borderRadius: '250px', objectFit: 'cover' }} />
                         </div>
                         <div className="col-lg-7">
                             <h3 className="mb-4 text-secondary fs-4">
