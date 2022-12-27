@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 // import Image from 'next/image'
 // import bg from '../public/bg.jpg'
-import bg3 from '../public/bg3.jpg'
+import myPic from '../public/images/myPic.jpg'
 
 export default function Home() {
 
@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.main2}
         style={{
-          backgroundImage: `url(${bg3.src})`,
+          backgroundImage: `url(${myPic.src})`,
           width: '100vw',
           height: '94vh',
           backgroundRepeat: 'no-repeat',

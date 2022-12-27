@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from '../../public/bg.jpg'
+import pic from '../../public/images/pic.jpg'
 import styles from '../../styles/About.module.css'
 import Typewriter from 'typewriter-effect'
 import Navbar from "../../components/Navbar";
@@ -28,7 +28,7 @@ export default function About() {
                     </div>
                     <div className={styles.main}>
                         <div >
-                            <Image src={bg} alt="" height={500} width={500} style={{ borderRadius: '250px', objectFit: 'cover' }} />
+                            <Image src={pic} alt="" height={500} width={500} style={{ borderRadius: '250px', objectFit: 'cover' }} />
                         </div>
                         <div className="col-lg-7">
                             <h3 className="mb-4 text-secondary fs-4">
