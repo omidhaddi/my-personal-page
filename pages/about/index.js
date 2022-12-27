@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pic from '../../public/images/pic.jpg'
+// import pic from '../../public/images/pic.jpg'
 import styles from '../../styles/About.module.css'
 import Typewriter from 'typewriter-effect'
 import Navbar from "../../components/Navbar";
