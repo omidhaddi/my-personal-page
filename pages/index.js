@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Typewriter from 'typewriter-effect'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
-// import Image from 'next/image'
-// import bg from '../public/bg.jpg'
 import myPic from '../public/images/myPic.jpg'
 
 export default function Home() {

@@ -3,6 +3,7 @@ import pic from '../../public/images/pic.jpg'
 import styles from '../../styles/About.module.css'
 import Typewriter from 'typewriter-effect'
 import Navbar from "../../components/Navbar";
+import Head from "next/head";
 
 
 
@@ -11,6 +12,9 @@ export default function About() {
 
     return (
         <>
+            <Head>
+                <title>about me</title>
+            </Head>
             <Navbar />
             <div class="container-fluid py-5" id="about">
                 <div class="container">

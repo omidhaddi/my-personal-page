@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../../components/Navbar";
 
@@ -8,6 +9,9 @@ export default function Experience() {
 
     return (
         <>
+            <Head>
+                <title>experience</title>
+            </Head>
             <Navbar />
 
             <div class="row" style={{ margin: '20px' }}>
@@ -90,7 +94,7 @@ export default function Experience() {
                 </div>
 
                 <div className="d-grid gap-2 col-3 mx-auto col-sm-5 mb-3 mb-sm-0">
-                    <Link className="btn btn-primary" target="_blank"  href="/files/englishCv.pdf" type="button" role='button'>
+                    <Link className="btn btn-primary" target="_blank" href="/files/englishCv.pdf" type="button" role='button'>
                         Download My English CV
                     </Link>
                     <br />

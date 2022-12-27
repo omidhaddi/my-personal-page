@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Card from "../../components/Card";
 import Navbar from "../../components/Navbar";
 import db from "../../database"
@@ -6,6 +7,9 @@ export default function Contact({ allMessages }) {
 
     return (
         <>
+            <Head>
+                <title>contact</title>
+            </Head>
             <Navbar />
             <h1 className="m-3">Contact me</h1>
             <h5 className="text-danger m-3 ms-5">Please fill all field </h5>

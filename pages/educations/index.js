@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../../components/Navbar";
 
@@ -7,6 +8,9 @@ export default function Education() {
 
     return (
         <>
+            <Head>
+                <title>education</title>
+            </Head>
             <Navbar />
             <h1 className="m-3">Academic Education</h1>
             <div class="row m-3 mt-4">
