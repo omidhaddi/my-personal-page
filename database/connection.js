@@ -9,4 +9,5 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const connection = sequelize;
+
 export default connection;
