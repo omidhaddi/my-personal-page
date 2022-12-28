@@ -56,7 +56,8 @@ export default function Experience() {
                             <h5>From : 02/07/2011 To 19/03/2014</h5>
                             <h5>kabul, Afghanistan</h5>
                             <h5>CONSTRUCTION DEPARTMENT OF NATIONAL DIRECTORATE OF SECURITY</h5>
-                            <p class="card-text lh-base" style={{ textAlign: 'justify' }}> Architectural design of different types of buildings and Estimate of them. <br /> <br /> <br /></p>
+                            <p class="card-text lh-base" style={{ textAlign: 'justify' }}> Architectural design of different types of buildings and Estimate of them. Plan, analyze, design, verify, document and release Ground Improvement or and deep foundation estimates and drawings to production teams.Plan and direct the organization’s activities to achieve essential targets.
+                            </p>
                         </div>
                     </div>
                     <br />
@@ -64,7 +65,7 @@ export default function Experience() {
                 <div class="col-sm-6 mb-3 mb-sm-0">
                     <div class="card border-info ">
                         <div class="card-body">
-                            <h4 class="card-title"><strong>LECTUREL OF ENGINEERING FACULTY (EVENING TIME)</strong></h4>
+                            <h4 class="card-title"><strong>LECTUREL OF ENGINEERING FACULTY</strong></h4>
                             <h5>From : 25/03/2011 To 22/12/2012</h5>
                             <h5>kabul, Afghanistan</h5>
                             <h5>DAWAT UNIVERSITY</h5>
@@ -85,31 +86,33 @@ export default function Experience() {
                 </div>
             </div>
             <br />
-            <div className="row " >
-                <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 mb-3 mb-sm-0">
-                    <Link className="btn btn-primary" target="_blank" href="/files/onePageCV.pdf" type="button" role='button'>
-                        Download My One Page CV
-                    </Link>
-                    <br />
-                </div>
+            <div class="container text-center">
+                <div className="row " >
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3">
+                        <Link className="btn btn-primary" target="_blank" href="/files/onePageCV.pdf" type="button" role='button'>
+                            Download My One Page CV
+                        </Link>
 
-                <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 mb-3 mb-sm-0">
-                    <Link className="btn btn-primary" target="_blank" href="/files/englishCv.pdf" type="button" role='button'>
-                        Download My English CV
-                    </Link>
-                    <br />
-                </div>
+                    </div>
 
-                <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 mb-3 mb-sm-0">
-                    <Link className="btn btn-primary" target="_blank" href="/files/ItalianCV.pdf" type="button" role='button'>
-                        Download My Italian CV
-                    </Link>
-                </div>
-                <br />
-                <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 mb-3 mb-sm-0">
-                    <Link className="btn btn-primary" target="_blank" href="/files/CvDari.pdf" type="button" role='button'>
-                        Download My Farsi CV
-                    </Link>
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3 ">
+                        <Link className="btn btn-primary" target="_blank" href="/files/englishCv.pdf" type="button" role='button'>
+                            Download My English CV
+                        </Link>
+
+                    </div>
+
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3 ">
+                        <Link className="btn btn-primary" target="_blank" href="/files/ItalianCV.pdf" type="button" role='button'>
+                            Download My Italian CV
+                        </Link>
+                    </div>
+
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3">
+                        <Link className="btn btn-primary" target="_blank" href="/files/CvDari.pdf" type="button" role='button'>
+                            Download My Farsi CV
+                        </Link>
+                    </div>
                 </div>
             </div>
             <br />

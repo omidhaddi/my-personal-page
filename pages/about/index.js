@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from '../../styles/About.module.css'
 import Typewriter from 'typewriter-effect'
 import Navbar from "../../components/Navbar";
 import Head from "next/head";
@@ -17,8 +16,8 @@ export default function About() {
             <Navbar />
             <div class="container-fluid py-5" id="about">
                 <div class="container">
-                    <div class="position-relative d-flex align-items-center justify-content-center">
-                        <h1 class="position-absolute text-uppercase text-primary m-5">
+                    <div class=" d-flex align-items-center justify-content-center">
+                        <h1 class="text-uppercase text-primary">
                             <strong>About Me</strong>
                         </h1>
                     </div>
