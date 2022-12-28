@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import pic from '../../public/images/pic.jpg'
 import styles from '../../styles/About.module.css'
 import Typewriter from 'typewriter-effect'
 import Navbar from "../../components/Navbar";
@@ -18,25 +17,18 @@ export default function About() {
             <Navbar />
             <div class="container-fluid py-5" id="about">
                 <div class="container">
-                    <div
-                        class="position-relative d-flex align-items-center justify-content-center"
-                    >
-                        <h1
-                            class="display-1 text-uppercase text-white"
-                        >
-                            About
-                        </h1>
-                        <h1 class="position-absolute text-uppercase text-primary">
-                            About Me
+                    <div class="position-relative d-flex align-items-center justify-content-center">
+                        <h1 class="position-absolute text-uppercase text-primary m-5">
+                            <strong>About Me</strong>
                         </h1>
                     </div>
-                    <div className={styles.main}>
-                        <div >
-                            <Image src='https://res.cloudinary.com/dgxasrrac/image/upload/v1672174728/personal-pics/pic_iukdmp.jpg'
-                                alt="" height={500} width={500} style={{ borderRadius: '250px', objectFit: 'cover' }} />
+                    <div class="d-sm-flex flex-row-reverse mb-3">
+                        <div>
+                            <Image class="img-fluid img-thumbnail rounded mx-auto d-block my-4" src='https://res.cloudinary.com/dgxasrrac/image/upload/v1672174728/personal-pics/pic_iukdmp.jpg'
+                                alt="my pic" height={500} width={500} />
                         </div>
                         <div className="col-lg-7">
-                            <h3 className="mb-4 text-secondary fs-4">
+                            <h3 className="mb-4 text-secondary fs-4 mt-5">
                                 Civil Engineer,Project Manager & Web Developer
                             </h3>
                             <div className="text-black font-weight-normal fs-4 mb-5">
@@ -93,16 +85,11 @@ export default function About() {
                                         Freelance: <span className="text-secondary fs-4">Available</span>
                                     </h6>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </>
     )
-
-
-
 }

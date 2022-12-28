@@ -13,23 +13,14 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <Navbar />
-      <div className={styles.main2}
-        style={{
-          backgroundImage: `url(https://res.cloudinary.com/dgxasrrac/image/upload/v1672174727/personal-pics/myPic_bwrmyn.jpg)`,
-          width: '100vw',
-          height: '94vh',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',
-          backgroundSize: 'cover',
-        }}
-      >
-        <br />
-        <div className="text-left" style={{ marginLeft: '500px' }} >
+
+      <div className={styles.main2}>
+        <div className="text-left"  >
           <h3 className="text-black font-weight-normal fs-2">I&apos;m</h3>
           <h1
-            className="text-uppercase text-primary mb-2 fs-1"
+            className="text-uppercase  mb-2 fs-1"
           >
-            <strong>Omid Haddi</strong>
+            <strong className='text-primary fs-2'>Omid</strong ><strong className='text-danger fs-2'> Haddi</strong>
           </h1>
           <div className="text-black font-weight-normal fs-4">
             <Typewriter
@@ -42,8 +33,8 @@ export default function Home() {
             />
           </div>
         </div>
-
       </div>
+
     </>
   )
 }
