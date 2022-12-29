@@ -63,10 +63,16 @@ export default function Education() {
             <br />
             <h1 className="m-3 mb-5">Certificates and Seminars</h1>
             <div class="row m-3 mt-4">
+                <Link className="mb-3" href="/files/diploma.pdf" style={{ textDecoration: "none" }} target="_blank">
+                    <li class="card border-danger col-sm-9 mb-3 mb-sm-0 p-2">
+                        <strong>CERTIFICATE IN FULL-STACK WEB DEVELOPMENT </strong>Powercoders Italia
+                        2022 Rome Italy
+                    </li>
+                </Link>
                 <Link className="mb-3" href="/files/safety.pdf" style={{ textDecoration: "none" }} target="_blank">
                     <li class="card border-danger col-sm-9 mb-3 mb-sm-0 p-2">
                         <strong>CERTIFICATE IN GENERAL SAFETY AND HIGH RISK</strong>For.Ma. Formazione Mantova
-                        2022 Mantua Italy
+                        2022 Mantova Italy
                     </li>
                 </Link>
                 <Link className="mb-3" href="/files/liber.pdf" style={{ textDecoration: "none" }} target="_blank">

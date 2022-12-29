@@ -22,7 +22,7 @@ export default function Home() {
           >
             <strong className='text-primary fs-2'>Omid</strong ><strong className='text-danger fs-2'> Haddi</strong>
           </h1>
-          <div className="text-black font-weight-normal fs-4">
+          <div className="text-warning font-weight-normal fs-4">
             <Typewriter
               options={{
                 strings: ['Civil Engineer', 'Project Manager', 'Web Developer'],

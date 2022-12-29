@@ -56,7 +56,7 @@ export default function Experience() {
                             <h5>From : 02/07/2011 To 19/03/2014</h5>
                             <h5>kabul, Afghanistan</h5>
                             <h5>CONSTRUCTION DEPARTMENT OF NATIONAL DIRECTORATE OF SECURITY</h5>
-                            <p class="card-text lh-base" style={{ textAlign: 'justify' }}> Architectural design of different types of buildings and Estimate of them. Plan, analyze, design, verify, document and release Ground Improvement or and deep foundation estimates and drawings to production teams.Plan and direct the organization’s activities to achieve essential targets.
+                            <p class="card-text lh-base" style={{ textAlign: 'justify' }}> Architectural design of different types of buildings and Estimate of them. Plan, analyze, design, verify, document and release Ground Improvement or and deep foundation estimates and drawings to production teams.Plan and direct the organization&apos;s activities to achieve essential targets. Improving financial and quality performance of branch to highest level.
                             </p>
                         </div>
                     </div>
@@ -87,28 +87,28 @@ export default function Experience() {
             </div>
             <br />
             <div class="container text-center">
-                <div className="row " >
-                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3">
+                <div className="row" >
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 m-3 mx-4">
                         <Link className="btn btn-primary" target="_blank" href="/files/onePageCV.pdf" type="button" role='button'>
                             Download My One Page CV
                         </Link>
 
                     </div>
 
-                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3 ">
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 m-3 mx-4">
                         <Link className="btn btn-primary" target="_blank" href="/files/englishCv.pdf" type="button" role='button'>
                             Download My English CV
                         </Link>
 
                     </div>
 
-                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3 ">
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 m-3 mx-4">
                         <Link className="btn btn-primary" target="_blank" href="/files/ItalianCV.pdf" type="button" role='button'>
                             Download My Italian CV
                         </Link>
                     </div>
 
-                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-4 m-3">
+                    <div className="d-grid gap-2 col-sm-3 mx-auto col-sm-5 m-3 mx4">
                         <Link className="btn btn-primary" target="_blank" href="/files/CvDari.pdf" type="button" role='button'>
                             Download My Farsi CV
                         </Link>

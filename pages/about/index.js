@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Image from "next/image"
 import Typewriter from 'typewriter-effect'
 import Navbar from "../../components/Navbar";
-import Head from "next/head";
+import Head from "next/head"
+import faceBook from '../../public/images/facebook.png'
+import instagram from '../../public/images/instagram.png'
+import linkedin from '../../public/images/inkedin.png'
+import twitter from '../../public/images/twitter.png'
+import github from '../../public/images/github.png'
+import Link from "next/link"
 
 
 
@@ -89,6 +95,27 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <div class="container text-center">
+                <Link className="mx-2 mb-3" href='https://www.facebook.com/haddi.omid/' target='_blank'>
+                    <Image src={faceBook} alt='facebook' height={50} width={50} />
+                </Link>
+                <Link className="mx-2 mb-3" href='https://www.instagram.com/haddi_omid/' target='_blank'>
+                    <Image src={instagram} alt='instagram' height={50} width={50} />
+                </Link>
+                <Link className="mx-2 mb-3" href='https://www.linkedin.com/in/omid-haddi-155581106/' target='_blank'>
+                    <Image src={linkedin} alt='linkedin' height={50} width={50} />
+                </Link>
+                <Link className="mx-2 mb-3" href='https://twitter.com/omidhaddi' target='_blank'>
+                    <Image src={twitter} alt='twitter' height={50} width={50} />
+                </Link>
+                <Link className="mx-2 mb-3" href='https://github.com/omidhaddi' target='_blank'>
+                    <Image src={github} alt='github' height={50} width={50} />
+                </Link>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
         </>
     )
 }
